@@ -18,22 +18,16 @@ Example : ``(base) C:\Users\USERNAME>python --version``
   ```
     
 - Create Demo :
-Example : ``(base) C:\Users\USERNAME>conda create -n install_demo python=3.8``
+Example : ``(base) C:\Users\USERNAME>conda create -n rasa_chat python=3.8``
     
   ```
   conda create -n install_demo python=3.8
   ```
 
-- Example : ``(base) C:\Users\USERNAME>conda activate install_demo``
+- Example : ``(base) C:\Users\USERNAME>conda activate rasa_chat``
     
   ```
-  conda activate install_demo
-  ```
-
-- Example : ``(base) C:\Users\USERNAME>conda activate install_demo``
-    
-  ```
-  conda activate install_demo
+  conda activate rasa_chat
   ```
 
 - Example : ``(install_demo) C:\Users\Mindu>python -m pip uninstall pip``
@@ -42,25 +36,25 @@ Example : ``(base) C:\Users\USERNAME>conda create -n install_demo python=3.8``
   python -m pip uninstall pip
   ```
 
-- Example : ``(install_demo) C:\Users\Mindu>python -m ensurepip``
+- Example : ``(rasa_chat) C:\Users\Mindu>python -m ensurepip``
     
   ```
   python -m ensurepip
   ```
 
-- Example : ``(install_demo) C:\Users\Mindu>python -m pip install -U pip``
+- Example : ``(rasa_chat) C:\Users\Mindu>python -m pip install -U pip``
       
   ```
   python -m pip install -U pip
   ```
 
-- Example : ``(install_demo) C:\Users\Mindu>pip install rasa``
+- Example : ``(rasa_chat) C:\Users\Mindu>pip install rasa``
     
   ```
   pip install rasa
   ```
 
-- Example : ``(install_demo) C:\Users\Mindu>rasa -h``
+- Example : ``(rasa_chat) C:\Users\Mindu>rasa -h``
     
   ```
   rasa -h
@@ -68,10 +62,10 @@ Example : ``(base) C:\Users\USERNAME>conda create -n install_demo python=3.8``
   
 - Example : ``GO TO YOUR PROJECT LOCATION USING CMD``
     
-  ```(install_demo) C:\Users\Mindu>cd D:\PROJECT LOCATION```
+  ```(rasa_chat) C:\Users\Mindu>cd D:\PROJECT LOCATION```
 
 
-- Example : ``(install_demo) D:\Projects\RasaProjects>rasa init``
+- Example : ``(rasa_chat) D:\Projects\RasaProjects>rasa init``
     
   ```
   rasa init
